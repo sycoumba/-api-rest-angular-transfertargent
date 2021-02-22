@@ -34,28 +34,28 @@ public class ApiRestAngularTransfertargentApplication implements CommandLineRunn
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 	
-		 
-		
-    //***====tester un emetteur=====***//
-				Emetteur emetteur = new Emetteur();
+			
+			/*	Emetteur emetteur = new Emetteur();
 				emetteur.setNom("SY");
 				emetteur.setPrenom("Coumba");
 				emetteur.setTel("775235100");
 				emetteur.setCni("2757 1984 02501");
 				emetteurRepostory.save(emetteur);
-	//**===tester un recepteur=====***//
+				
 				Recepteur recepteur = new Recepteur();
 				recepteur.setNom("NDIAYE");
 				recepteur.setPrenom("Marieme");
 				recepteur.setTel("772581104");
 				recepteurRepository.save(recepteur);
-   //**====tester un envoie=====**//
+				
 				Envoie envoie = new Envoie();
 				envoie.setMontant(45000);
 				envoie.setDate("24-jan-2021");
 				envoie.setEmetteur(emetteur);
 				envoie.setRecepteur(recepteur);
 				envoieRepostory.save(envoie);
+				
+				*/
 				
 	}
 
